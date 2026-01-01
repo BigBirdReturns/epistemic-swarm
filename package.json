@@ -1,0 +1,26 @@
+{
+  "name": "epistemic-swarm",
+  "version": "1.0.0",
+  "description": "Distributed coordination with semantic awareness and authority management",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm test --workspaces",
+    "clean": "rm -rf packages/*/dist",
+    "demo:adversarial": "npm run adversarial --workspace @epistemic-swarm/demo"
+  },
+  "keywords": [
+    "swarm",
+    "distributed",
+    "coordination",
+    "epistemic",
+    "p2p",
+    "browser",
+    "authority"
+  ],
+  "author": "Sandhu Consulting Group",
+  "license": "MIT"
+}

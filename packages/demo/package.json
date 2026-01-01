@@ -1,0 +1,13 @@
+{
+  "name": "@epistemic-swarm/demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "adversarial": "node dist/adversarial.js"
+  },
+  "dependencies": {
+    "@epistemic-swarm/core": "1.0.0"
+  }
+}
