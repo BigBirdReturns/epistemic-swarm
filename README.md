@@ -2,6 +2,14 @@
 
 **The missing layer between "distributed learning" and "survives disagreement."**
 
+> **Preserved reference, not an active implementation.** Estate review on
+> 2026-07-23 found that the committed workspace does not currently build or run
+> its advertised adversarial demo. The root test command also fails because the
+> core package assumes a non-hoisted Jest installation while the demo has no
+> test script. Keep the threat model, protocol questions, and falsification
+> cases as design evidence; do not wire this package into a live system without
+> first repairing and independently rerunning the documented commands.
+
 ## What This Is
 
 This repository exists to answer one question:
@@ -152,7 +160,7 @@ This repository is the minimum viable answer to those questions.
 
 To prevent misreading:
 
-**Implemented and tested:**
+**Historically implemented; current checkout is not acceptance-green:**
 - Discovery and membership (heartbeats, peer exchange, liveness)
 - Authenticated signal propagation (Ed25519, TTL, deduplication)
 - Belief store with history and lineage tracking
