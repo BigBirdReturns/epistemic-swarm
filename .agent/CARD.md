@@ -20,8 +20,8 @@ Canonical checkout: `D:\Projects\Ancestors\Epistemic-Swarm\main`
 - Bounded validator-backed work follows root `AGENTS.md`; no web dashboard is required.
 
 ## Staleness
-- generated_at: 2026-07-22
-- source_commit: cb306ee
+- generated_at: 2026-07-23
+- source_commit: 9f20e01
 - regenerate: `python D:/Projects/Tooling/Estate/main/cards.py Epistemic-Swarm --write`
 
 This card is GENERATED. If it disagrees with the repository, the repository is right. Do not hand-edit this card — regenerate it: python D:/Projects/Tooling/Estate/main/cards.py Epistemic-Swarm --write
